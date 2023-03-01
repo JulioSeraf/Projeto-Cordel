@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+:root{
+    --cor1:#6E2001;
+    --cor2:#942B01;
+    --cor3:#AD3301;
+    --cor4:#BA3602;
+    --cor5:#FA4902;
+}
+*{
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Kalam',cursive;
+    background-color: antiquewhite;
+}
+header{
+    background-color: #6e2001;
+    color: rgba(255, 255, 255, 0.644);
+    text-align: center;
+}
+header h1{
+    font-size: 6.5vw;
+    color: white;
+    text-shadow: 5px 10px 1px #fa480234;
+}
+header > p > a{
+    text-decoration: none;
+    color: white;
+}
+header > p > a:hover{
+    text-decoration: underline;
+}
+section{
+    line-height: 2em;
+    font-size:3.5vw;
+    padding: 5vh 0;
+    
+}
+section.imagen{
+    background-position: center center;
+    background-size: cover;
+    background-attachment:fixed;
+    box-shadow: inset 10px 15px 30px 10px rgba(0, 0, 0, 0.37);
+}
+section > p{
+    padding-left: 30px;
+    padding-bottom: 15vh;
+}
+section#img1{
+    background-image: url(imagens/paisagem-natural-floresta.webp);
+  
+}
+section#img2{
+    background-image: url(imagens/background002.jpg);
+    
+}
+section > p.fundo{
+    display:inline-block;
+    background-color: rgba(0, 0, 0, 0.288);
+    padding: 10px;
+    margin:30px 30px 50px 30px;
+    color: white;
+}
+footer{
+    background-color: #6E2001;
+    color: rgba(255, 255, 255, 0.726);
+    text-align: center;
+    padding: 10px;
+}
+footer > p > a{
+    text-decoration: none;
+    color: white;
+}
+footer > p a:hover{
+    color: black;
+    padding: 0 50px;
+    transition-duration: 5s;
+    background-image: linear-gradient(to right, var(--cor1), wheat);
+    border-radius: 30px;
+}
